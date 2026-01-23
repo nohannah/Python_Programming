@@ -1,1 +1,5 @@
 12,hannah,300.0
+2,hannah,200.0
+01,hannah,200.0
+02,sana,110.0
+4,fatima,80.0
