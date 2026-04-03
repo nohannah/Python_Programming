@@ -19,3 +19,14 @@ s = Solution()
 result = s.twoSum(nums, target)
 
 print("Indices:", result)
+
+
+# different method of doing this problem 
+left=0
+right= len(nums)-1
+while True:
+    sum=nums[left]+ nums[right]
+    if sum==target:
+        return [left+1,right+1]
+    elif sum < target : 
+        left +=1
